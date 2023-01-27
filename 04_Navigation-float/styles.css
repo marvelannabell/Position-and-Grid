@@ -54,6 +54,10 @@ main aside {
 
 main aside a {
     color: green;
+    text-decoration: none;
+}
+main aside ul li{
+    text-decoration: none;
 }
 
 main .section2 .p2 {
@@ -61,12 +65,6 @@ main .section2 .p2 {
     display: inline-block;
     width: 44%;
 }
-
-/* main .section2 p{
-    margin-top: 0px;
-
-} */
-
 
 main section blockquote {
     margin: 5;
