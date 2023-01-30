@@ -1,1 +1,28 @@
-/* TODO: style the html */
+
+.model-img{
+    position: relative;
+}
+section {
+    position: absolute;
+    top: 250px;
+    left: 170px;
+
+
+}
+section div span{
+    font-size: 14px;
+    padding-left: 10px;
+    color: grey;
+    /* margin: 0px; */
+}
+section div h3{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin: 0px;
+}
+section div{
+    position: absolute;
+    top: 200px;
+}
+
