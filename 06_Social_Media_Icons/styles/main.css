@@ -23,6 +23,7 @@ ul li {
     border-radius: 100%;
     text-align: center;
     background-color: rgb(195, 189, 189, 0.3);
+    transform: scale(1);
 
 
 }
@@ -33,6 +34,7 @@ ul li:not(:last-child) {
 
 ul li a i {
     color: rgb(84, 83, 83);
+    transition: color 300ms ease-in-out;
 }
 i.fa-facebook:hover{
     color: rgb(11, 95, 130);
@@ -48,4 +50,7 @@ i.fa-linkedin-in:hover{
 }
 i.fa-instagram:hover{
     color: rgb(29, 100, 232);
+}
+i.fa-facebook:hover,i.fa-twitter:hover,i.fa-google-plus-g:hover,i.fa-linkedin-in:hover,i.fa-instagram:hover{
+    transform: scale(1.1);
 }
